@@ -1,0 +1,55 @@
+@import "main.scss";
+
+nav{
+  & .phone{
+    & a{
+      margin-top: 13%;
+    }
+    display: inline-flex;
+    float: left;
+  }
+  & .top-bar{
+    font-family: 'Lato-Regular', serif;
+    color: rgba(57,57,57,255);
+    font-size: 0.688em;
+    width: 100%;
+  }
+  & .top-menu{
+    float: right;
+    & li{
+      display: inline-flex;
+    }
+  }
+}
+nav{
+  & .menu{
+    width: 100%;
+    display: inline-flex;
+  }
+  & .bottom-menu{
+    font-family: 'PlayfairDisplay-Italic', serif ;
+    font-size: 1.145em;
+    color: rgba(0,0,0,255);
+    float: left;
+    padding: 0;
+    & li{
+      display: inline-flex;
+    }
+  }
+  & .logo{
+    color: rgba(0,0,0,255);
+    font-size: 4.483em;
+    font-family: 'KrinkesDecorPersonal', serif;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: -1%;
+  }
+  & .media{
+    margin-left: 29%;
+    margin-top: 2%;
+  }
+  
+}
+
+
+

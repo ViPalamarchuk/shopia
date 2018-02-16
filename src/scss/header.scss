@@ -1,0 +1,29 @@
+@import "main.scss";
+
+header {
+  & .bg {
+    width: 100%;
+    margin-top: -5%;
+    position: relative;
+    padding: 0;
+  }
+  & .HEADER_SHOP {
+    background-color: #f09d66;
+    color: rgba(255, 255, 255, 255);
+    font-family: 'Lato-Bold', serif;
+    font-size: 1.500em;
+    height: 2.1em;
+    width: 8em;
+    margin-top: -15.3%;
+    margin-left: 42.4%;
+    position: absolute;
+  }
+  & .buttons_headers {
+    margin-top: -4%;
+    margin-left: 44.9%;
+    position: absolute;
+  }
+  & .support_header{
+    width: 100%;
+  }
+}
