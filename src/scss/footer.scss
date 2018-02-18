@@ -1,0 +1,48 @@
+@import "main.scss";
+
+footer{
+  clear: both;
+  height: 20em;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+  & ul{
+    justify-content: flex-start;
+    & li{
+      margin-top: 3%;
+      margin-left: 3%;
+      display: inline-table;
+      & ul{
+        & .caption_footer{
+          font-family: 'Lato-Regular', serif;
+          font-size: 1em;
+          color: white;
+        }
+        & li {
+          color: rgba(115,115,115,255);
+          display: table;
+          margin-bottom: 0;
+          font-size: 0.875em;
+          font-family: 'Lato-Bold', serif;
+          & button{
+            color: white;
+            background-color: #323030;
+            font-family: Lato-Regular, serif;
+            font-size: 0.750em;
+            border: 0;
+            padding: 0;
+            height: 2em;
+            width: 6em;
+          }
+          & form{
+            border: 0;
+            padding: 0;
+            color: rgba(106,106,106,255);
+            font-size: 0.750em;
+            font-family: Lato-Regular, serif;
+          }
+        }
+      }
+    }
+  }
+}
