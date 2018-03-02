@@ -2,10 +2,11 @@
 
 footer{
   clear: both;
-  height: 20em;
+  min-height: 20em;
+  max-height: auto;
   width: 100%;
   background-color: rgb(0, 0, 0);
-  background-size: cover;
+  background-size: contain;
   & ul{
     justify-content: flex-start;
     & li{
@@ -15,20 +16,20 @@ footer{
       & ul{
         & .caption_footer{
           font-family: 'Lato-Regular', serif;
-          font-size: 1em;
+          font-size: 1.1vw;
           color: white;
         }
         & li {
           color: rgba(115,115,115,255);
           display: table;
           margin-bottom: 0;
-          font-size: 0.875em;
+          font-size: 1vw;
           font-family: 'Lato-Bold', serif;
           & button{
             color: white;
             background-color: #323030;
             font-family: Lato-Regular, serif;
-            font-size: 0.750em;
+            font-size: 1vw;
             border: 0;
             padding: 0;
             height: 2em;
@@ -38,11 +39,33 @@ footer{
             border: 0;
             padding: 0;
             color: rgba(106,106,106,255);
-            font-size: 0.750em;
+            font-size: 0.8vw;
             font-family: Lato-Regular, serif;
           }
         }
       }
     }
+  }
+  & .info_footer{
+    color: rgba(54,54,54,255);
+    font-size: 1vw;
+    font-family: 'Lato-Regular', serif;
+    & p, .cart{
+      margin-left: 3vw;
+      & .cart{
+        margin: 2%;
+      }
+      & .line{
+        width: 100%;
+      }
+    }
+    & .black_line{
+      width: 100%;
+    }
+  }
+  & .arrow{
+    float: right;
+    margin-top: -25vh;
+    margin-right: 5vw;
   }
 }

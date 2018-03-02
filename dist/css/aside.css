@@ -1,0 +1,61 @@
+@font-face {
+  font-family: KrinkesDecorPersonal;
+  src: url(../font/KrinkesDecorPERSONAL.ttf); }
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../font/Lato-Bold.ttf); }
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../font/Lato-Regular.ttf); }
+@font-face {
+  font-family: PlayfairDisplay-BoldItalic;
+  src: url(../font/PlayfairDisplay-BoldItalic.ttf); }
+@font-face {
+  font-family: PlayfairDisplay-Italic;
+  src: url(../font/PlayfairDisplay-Italic.ttf); }
+aside .OurBrand {
+  width: 100%; }
+  aside .OurBrand .brands {
+    display: block; }
+    aside .OurBrand .brands img {
+      padding: 1.3vw;
+      width: 12vw;
+      height: 12vh; }
+aside .OurBrand .caption, aside .CustomersSays .caption {
+  width: 100%; }
+  aside .OurBrand .caption .caption, aside .CustomersSays .caption .caption {
+    font-family: 'PlayfairDisplay-BoldItalic', 'serif';
+    font-size: 2vw; }
+
+aside .customers {
+  display: inline-flex;
+  min-width: 100%;
+  min-height: 35%;
+  max-height: auto;
+  background: url("../images/bg_aside.png"), no-repeat;
+  background-size: 100%; }
+  aside .customers .customer_feedback1, aside .customers .customer_feedback2 {
+    min-width: 50%;
+    margin-bottom: 2%; }
+    aside .customers .customer_feedback1 .text_aside1, aside .customers .customer_feedback1 .text_aside2, aside .customers .customer_feedback2 .text_aside1, aside .customers .customer_feedback2 .text_aside2 {
+      font-family: 'PlayfairDisplay-Italic', serif;
+      font-size: 1.5vw;
+      color: white; }
+    aside .customers .customer_feedback1 .text_aside2, aside .customers .customer_feedback1 .name_aside2, aside .customers .customer_feedback1 .prof_aside2, aside .customers .customer_feedback2 .text_aside2, aside .customers .customer_feedback2 .name_aside2, aside .customers .customer_feedback2 .prof_aside2 {
+      text-align: right;
+      margin-top: 10%;
+      margin-right: 35%; }
+    aside .customers .customer_feedback1 .text_aside1, aside .customers .customer_feedback1 .name_aside1, aside .customers .customer_feedback1 .prof_aside1, aside .customers .customer_feedback2 .text_aside1, aside .customers .customer_feedback2 .name_aside1, aside .customers .customer_feedback2 .prof_aside1 {
+      text-align: left;
+      margin-top: 10%;
+      margin-left: 45%; }
+    aside .customers .customer_feedback1 .name_aside1, aside .customers .customer_feedback1 .name_aside2, aside .customers .customer_feedback2 .name_aside1, aside .customers .customer_feedback2 .name_aside2 {
+      font-family: 'PlayfairDisplay-BoldItalic', serif;
+      font-size: 2vw;
+      color: black; }
+    aside .customers .customer_feedback1 .prof_aside1, aside .customers .customer_feedback1 .prof_aside2, aside .customers .customer_feedback2 .prof_aside1, aside .customers .customer_feedback2 .prof_aside2 {
+      font-family: 'Lato-Bold', serif;
+      font-size: 1vw;
+      color: #7f7e7e; }
+
+/*# sourceMappingURL=aside.css.map */

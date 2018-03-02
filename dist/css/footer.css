@@ -1,0 +1,71 @@
+@font-face {
+  font-family: KrinkesDecorPersonal;
+  src: url(../font/KrinkesDecorPERSONAL.ttf); }
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../font/Lato-Bold.ttf); }
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../font/Lato-Regular.ttf); }
+@font-face {
+  font-family: PlayfairDisplay-BoldItalic;
+  src: url(../font/PlayfairDisplay-BoldItalic.ttf); }
+@font-face {
+  font-family: PlayfairDisplay-Italic;
+  src: url(../font/PlayfairDisplay-Italic.ttf); }
+footer {
+  clear: both;
+  min-height: 20em;
+  max-height: auto;
+  width: 100%;
+  background-color: black;
+  background-size: contain; }
+  footer ul {
+    justify-content: flex-start; }
+    footer ul li {
+      margin-top: 3%;
+      margin-left: 3%;
+      display: inline-table; }
+      footer ul li ul .caption_footer {
+        font-family: 'Lato-Regular', serif;
+        font-size: 1.1vw;
+        color: white; }
+      footer ul li ul li {
+        color: #737373;
+        display: table;
+        margin-bottom: 0;
+        font-size: 1vw;
+        font-family: 'Lato-Bold', serif; }
+        footer ul li ul li button {
+          color: white;
+          background-color: #323030;
+          font-family: Lato-Regular, serif;
+          font-size: 1vw;
+          border: 0;
+          padding: 0;
+          height: 2em;
+          width: 6em; }
+        footer ul li ul li form {
+          border: 0;
+          padding: 0;
+          color: #6a6a6a;
+          font-size: 0.8vw;
+          font-family: Lato-Regular, serif; }
+  footer .info_footer {
+    color: #363636;
+    font-size: 1vw;
+    font-family: 'Lato-Regular', serif; }
+    footer .info_footer p, footer .info_footer .cart {
+      margin-left: 3vw; }
+      footer .info_footer p .cart, footer .info_footer .cart .cart {
+        margin: 2%; }
+      footer .info_footer p .line, footer .info_footer .cart .line {
+        width: 100%; }
+    footer .info_footer .black_line {
+      width: 100%; }
+  footer .arrow {
+    float: right;
+    margin-top: -25vh;
+    margin-right: 5vw; }
+
+/*# sourceMappingURL=footer.css.map */

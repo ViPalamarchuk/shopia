@@ -1,0 +1,58 @@
+@font-face {
+  font-family: KrinkesDecorPersonal;
+  src: url(../font/KrinkesDecorPERSONAL.ttf); }
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../font/Lato-Bold.ttf); }
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../font/Lato-Regular.ttf); }
+@font-face {
+  font-family: PlayfairDisplay-BoldItalic;
+  src: url(../font/PlayfairDisplay-BoldItalic.ttf); }
+@font-face {
+  font-family: PlayfairDisplay-Italic;
+  src: url(../font/PlayfairDisplay-Italic.ttf); }
+nav .phone {
+  display: inline-flex;
+  float: left; }
+  nav .phone a {
+    margin-top: 13%; }
+nav .top-bar {
+  font-family: 'Lato-Regular', serif;
+  color: #393939;
+  font-size: 1vw;
+  width: 100%; }
+nav .top-menu {
+  float: right; }
+  nav .top-menu li {
+    display: inline-flex; }
+
+nav .menu {
+  width: 100%;
+  display: inline-flex; }
+nav .bottom-menu {
+  font-family: "PlayfairDisplay-Italic", serif;
+  font-size: 1.5vw;
+  color: black;
+  float: left;
+  padding: 0; }
+  nav .bottom-menu li {
+    display: inline-flex; }
+nav .logo {
+  padding: 0;
+  max-width: 25%;
+  max-height: 10%;
+  color: black;
+  font-size: 4.5vw;
+  font-family: 'KrinkesDecorPersonal', serif;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: -2%; }
+nav .media {
+  margin-left: 28%;
+  margin-top: 1%; }
+  nav .media img {
+    width: 2.5vw; }
+
+/*# sourceMappingURL=nav.css.map */

@@ -6,35 +6,22 @@ section{
       width: 100%;
       & .caption {
         font-family: 'PlayfairDisplay-BoldItalic', 'serif';
-        font-size: 1.873em;
+        font-size: 2vw;
       }
     }
     & table.article1_table{
       width: 100%;
-      & .picture1{
-        width: 33.33333%;
-        height: 24em;
-        background-image: url("../images/picture1_article1.png");
+      & .picture1, .picture3, .picture4, .picture5{
+        & img{
+          width: 31.2vw;
+          height: 60vh;
+        }
       }
-      & .picture2{
-        width: 33.33333%;
-        height: 49em;
-        background-image: url("../images/picture2_article1.png");
-      }
-      & .picture3{
-        width: 33.33333%;
-        height: 24em;
-        background-image: url("../images/picture3_article1.png");
-      }
-      & .picture4{
-        width: 33.33333%;
-        height: 24em;
-        background-image: url("../images/picture4_article1.png");
-      }
-      & .picture5{
-        width: 33.33333%;
-        height: 24em;
-        background-image: url("../images/picture5_article1.png");
+      & .picture2 {
+        & img {
+          width: 31.2vw;
+          height: 120vh;
+        }
       }
     }
   }
@@ -45,50 +32,16 @@ section{
       width: 100%;
       & .caption {
         font-family: 'PlayfairDisplay-BoldItalic', 'serif';
-        font-size: 1.873em;
+        font-size: 2vw;
       }
     }
     & table.article2_table{
       width: 100%;
-      & .picture1_2{
-        width: 25%;
-        height: 21em;
-        background-image: url("../images/picture1_article2.png");
-      }
-      & .picture2_2{
-        width: 25%;
-        height: 21em;
-        background-image: url("../images/picture2_article2.png");
-      }
-      & .picture3_2{
-        width: 25%;
-        height: 21em;
-        background-image: url("../images/picture3_article2.png");
-      }
-      & .picture4_2{
-        width: 25%;
-        height: 21em;
-        background-image: url("../images/picture4_article2.png");
-      }
-      & .picture5_2{
-        width: 25%;
-        height: 21em;
-        background-image: url("../images/picture5_article2.png");
-      }
-      & .picture6_2{
-        width: 25%;
-        height: 21em;
-        background-image: url("../images/picture6_article2.png");
-      }
-      & .picture7_2{
-        width: 25%;
-        height: 21em;
-        background-image: url("../images/picture7_article2.png");
-      }
-      & .picture8_2{
-        width: 25%;
-        height: 21em;
-        background-image: url("../images/picture8_article2.png");
+      & .picture1_2, .picture2_2, .picture3_2, .picture4_2, .picture5_2, .picture6_2, .picture7_2, .picture8_2{
+        & img{
+          width: 23vw;
+          height: 55vh;
+        }
       }
     }
   }
